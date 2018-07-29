@@ -31,10 +31,10 @@
 
 ## Видео
 Предыдущий пример применим в динамике для видео. [Пример](https://hcodes.github.io/fast-average-color/examples/ambilight.html#4Sides)
-![Video, box shadow, 4 sides](./images/video_box_shadow.png)
+![Video, box shadow, 4 sides](./images/ambilight_simple.png)
 
 Разделим стороны экрана на большее количество частей (30), в которых вычислим средний цвет для отбрасываемой тени, совсем как у [Philips Ambilight](https://ru.wikipedia.org/wiki/Ambilight). [Пример](https://hcodes.github.io/fast-average-color/examples/ambilight.html#ManyPoints)
-![Video, Ambilight](./images/video_ambilight.png)
+![Video, Ambilight](./images/ambilight_extended.png)
 
 ## Текстовая фотография
 Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Примеры](https://hcodes.github.io/fast-average-color/examples/text-photo.html) с другими браузерами.
