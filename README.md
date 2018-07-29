@@ -39,6 +39,74 @@
 ![Text photo](./images/firefox.png)
 
 ## Использование
+Для примеров используется небольшой пакет "[fast-average-color](https://github.com/hcodes/fast-average-color)". Средний цвет можно вычислять у картинок, видео и canvas'а. При подсчёте цвета учитывается прозрачность.
+
+`npm i -D fast-average-color`
+
+### Примеры
+
+```html
+<html>
+<body>
+    ...
+    <div class="image-container">
+        <img src="image.png" />
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+    </div>
+    <script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script>
+    <script>
+        window.addEventListener('load', function() {
+            var
+                fac = new FastAverageColor(),
+                container = document.querySelector('.image-container'),
+                color = fac.getColor(container.querySelector('img'));
+
+            container.style.backgroundColor = color.rgba;
+            container.style.color = color.isDark ? '#fff' : '#000';
+
+            console.log(color);
+            // {
+            //     error: null,
+            //     rgb: 'rgb(255, 0, 0)',
+            //     rgba: 'rgba(255, 0, 0, 1)',
+            //     hex: '#ff0000',
+            //     hexa: '#ff0000ff',
+            //     value: [255, 0, 0, 255],
+            //     isDark: true,
+            //     isLight: false
+            // }
+        }, false);
+    </script>
+</body>
+</html>
+```
+
+```html
+<html>
+<body>
+    ...
+    <div class="image-container">
+        <img src="image.png" />
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+    </div>
+    <script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script>
+    <script>
+        var
+            fac = new FastAverageColor(),
+            container = document.querySelector('.image-container');
+
+        fac.getColorAsync(container.querySelector('img'), function(color) {
+            container.style.backgroundColor = color.rgba;
+            container.style.color = color.isDark ? '#fff' : '#000';
+        });
+    </script>
+</body>
+</html>
+````
 
 Ссылки:
 - [fast-average-color в Github](https://github.com/hcodes/fast-average-color)
