@@ -39,7 +39,7 @@
 ![Text photo](./images/firefox.png)
 
 ## Использование
-Для примеров используется небольшой пакет "[fast-average-color](https://github.com/hcodes/fast-average-color)". Средний цвет можно вычислять у картинок, видео и canvas'а. При подсчёте цвета учитывается прозрачность.
+Для вычисления среднего цвета в примерах я использовал небольшой пакет «[fast-average-color](https://github.com/hcodes/fast-average-color)». Усреднённый цвет можно вычислять у картинок, видео и canvas’а. При подсчёте цвета учитывается прозрачность.
 
 `npm i -D fast-average-color`
 
