@@ -45,7 +45,7 @@
 
 ### Примеры
 
-Для canvas'a, загруженных картинок и видео используем метод `.getColor(resource, [options])`:
+Для получения среднего цвета и canvas’a, загруженных картинок и видео используется метод `.getColor (resource, [options])`:
 ```html
 <html>
 <body>
@@ -85,7 +85,7 @@
 </html>
 ```
 
-Для картинок, которые находятся в процессе загрузке - `.getColorAsync(resource, callback, [options])`:
+А для картинок, которые находятся в процессе загрузки — `.getColorAsync (resource, callback, [options])`:
 ```html
 <html>
 <body>
