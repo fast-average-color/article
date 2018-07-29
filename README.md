@@ -47,7 +47,7 @@
 
 ### Примеры
 
-Для получения среднего цвета из canvas’a, загруженных картинок и видео используется метод [.getColor()](https://github.com/hcodes/fast-average-color#getcolorresource-options):
+Для получения среднего цвета из загруженных картинок, видео и canvas’a используется метод [.getColor()](https://github.com/hcodes/fast-average-color#getcolorresource-options):
 ```html
 <html>
 <body>
@@ -129,6 +129,6 @@
 Для картинок и видео с разных доменов стоит не забывать про [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS).
 
 Ссылки:
-- [fast-average-color в Github](https://github.com/hcodes/fast-average-color)
-- [fast-average-color в npm](https://www.npmjs.com/package/fast-average-color)
-- [Все примеры](https://hcodes.github.io/fast-average-color/examples/background.html)
+- [Репозитарий на Github](https://github.com/hcodes/fast-average-color)
+- [Пакет в npm](https://www.npmjs.com/package/fast-average-color)
+- [Примеры](https://hcodes.github.io/fast-average-color/examples/background.html)
