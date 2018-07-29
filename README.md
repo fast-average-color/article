@@ -1,0 +1,1 @@
+# fast-average-color-article
