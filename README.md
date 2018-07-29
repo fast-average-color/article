@@ -124,6 +124,8 @@
 </html>
 ````
 
+Для картинок и видео с разных доменов стоит не забывать про [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS).
+
 Ссылки:
 - [fast-average-color в Github](https://github.com/hcodes/fast-average-color)
 - [fast-average-color в npm](https://www.npmjs.com/package/fast-average-color)
