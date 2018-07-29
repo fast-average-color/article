@@ -45,6 +45,7 @@
 
 ### Примеры
 
+Для canvas'a, загруженных картинок и видео используем метод `.getColor(resource, [options])`:
 ```html
 <html>
 <body>
@@ -52,7 +53,8 @@
     <div class="image-container">
         <img src="image.png" />
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
     </div>
     <script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script>
@@ -83,6 +85,7 @@
 </html>
 ```
 
+Для картинок, которые находятся в процессе загрузке - `.getColorAsync(resource, callback, [options])`:
 ```html
 <html>
 <body>
@@ -90,7 +93,8 @@
     <div class="image-container">
         <img src="image.png" />
         <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
     </div>
     <script src="https://unpkg.com/fast-average-color/dist/index.min.js"></script>
@@ -102,6 +106,18 @@
         fac.getColorAsync(container.querySelector('img'), function(color) {
             container.style.backgroundColor = color.rgba;
             container.style.color = color.isDark ? '#fff' : '#000';
+
+            console.log(color);
+            // {
+            //     error: null,
+            //     rgb: 'rgb(255, 0, 0)',
+            //     rgba: 'rgba(255, 0, 0, 1)',
+            //     hex: '#ff0000',
+            //     hexa: '#ff0000ff',
+            //     value: [255, 0, 0, 255],
+            //     isDark: true,
+            //     isLight: false
+            // }
         });
     </script>
 </body>
