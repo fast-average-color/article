@@ -45,7 +45,7 @@
 
 ### Примеры
 
-Для получения среднего цвета из canvas’a, загруженных картинок и видео используется метод `.getColor(resource, [options])`:
+Для получения среднего цвета из canvas’a, загруженных картинок и видео используется метод [.getColor()](https://github.com/hcodes/fast-average-color#getcolorresource-options):
 ```html
 <html>
 <body>
@@ -85,7 +85,7 @@
 </html>
 ```
 
-А для картинок, которые находятся в процессе загрузки — `.getColorAsync(resource, callback, [options])`:
+А для картинок, которые находятся в процессе загрузки — [.getColorAsync()](https://github.com/hcodes/fast-average-color#getcolorasyncresource-callback-options):
 ```html
 <html>
 <body>
