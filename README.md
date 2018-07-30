@@ -14,7 +14,7 @@
 ![Gradient](./images/gradient.png)
 
 Градиент в стиле Minecraft — средний цвет высчитывается частями (горизональными полосками). [Пример](https://hcodes.github.io/fast-average-color/examples/gradient_stripes.html)
-![Minecraft gradient](./images/minecraft.png)
+![Minecraft gradient](./images/gradient_stripes.png)
 
 
 ## Рамка
