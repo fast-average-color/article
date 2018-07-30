@@ -37,7 +37,7 @@
 ![Video, Ambilight](./images/ambilight_extended.png)
 
 ## Текстовая фотография
-Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Примеры](https://hcodes.github.io/fast-average-color/examples/text-photo.html) с другими браузерами.
+Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Пример](https://hcodes.github.io/fast-average-color/examples/text-photo.html)
 ![Text photo](./images/firefox.png)
 
 ## Использование
