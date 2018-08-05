@@ -46,13 +46,13 @@
 ![Text photo](./images/firefox.png)</a>
 
 ## Использование
-Средний цвет в примерах вычисляется с помощью небольшого пакета «[fast-average-color](https://github.com/hcodes/fast-average-color)». При подсчёте цвета учитывается прозрачность. По умолчанию используется квадратичный алгоритм, т.к. при простом усреднении цвет становится [более тёмным](https://fast-average-color.github.io/examples/compare/).
+Средний цвет в примерах вычисляется с помощью небольшого пакета «[fast-average-color](https://github.com/hcodes/fast-average-color)». При подсчёте цвета учитывается прозрачность. По умолчанию используется квадратичный алгоритм, т.к. при простом усреднении цвет становится [более тёмным](https://fast-average-color.github.io/compare/).
 
 `npm i -D fast-average-color`
 
 ### Примеры
 
-Для получения среднего цвета из загруженных картинок, видео и canvas’a используется метод [.getColor()](https://github.com/hcodes/fast-average-color#getcolorresource-options):
+Для получения среднего цвета из загруженных картинок, видео и canvas’a используется метод [.getColor()](https://github.com/fast-average-color/fast-average-color#getcolorresource-options):
 ```html
 <html>
 <body>
@@ -92,7 +92,7 @@
 </html>
 ```
 
-А для картинок, которые находятся в процессе загрузки — [.getColorAsync()](https://github.com/hcodes/fast-average-color#getcolorasyncresource-callback-options):
+А для картинок, которые находятся в процессе загрузки — [.getColorAsync()](https://github.com/fast-average-color/fast-average-color#getcolorasyncresource-callback-options):
 ```html
 <html>
 <body>
