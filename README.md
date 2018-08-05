@@ -1,4 +1,4 @@
-# Усреднённый цвет в JavaScript
+# Средний цвет в JavaScript
 
 ![Fruit average color](./images/fruit_average_color.png)
 
