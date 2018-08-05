@@ -6,41 +6,41 @@
 посмотреть какие ещё варианты можно использовать в верстке.
 
 ## Фон
-Рассчитываем средний цвет фотографии и устанавливаем цвет подложки. [Пример](https://hcodes.github.io/fast-average-color/examples/background.html)  
+Рассчитываем средний цвет фотографии и устанавливаем цвет подложки. [Пример](https://fast-average-color.github.io/examples/background.html)  
 ![Background](./images/bg.png)
 
 ## Градиент
-Средний цвет высчитывается у верхней или нижней части картинки и используется в подложке для текста. Между картинкой и подложкой установлен плавный градиент. Стиль Яндекс.Дзена. [Пример](https://hcodes.github.io/fast-average-color/examples/gradient.html)  
+Средний цвет высчитывается у верхней или нижней части картинки и используется в подложке для текста. Между картинкой и подложкой установлен плавный градиент. Стиль Яндекс.Дзена. [Пример](https://fast-average-color.github.io/examples/gradient.html)  
 ![Gradient](./images/gradient.png)
 
-Градиент в стиле Minecraft — средний цвет высчитывается частями (горизональными полосками). [Пример](https://hcodes.github.io/fast-average-color/examples/gradient_stripes.html)  
+Градиент в стиле Minecraft — средний цвет высчитывается частями (горизональными полосками). [Пример](https://fast-average-color.github.io/examples/gradient_stripes.html)  
 ![Minecraft gradient](./images/gradient_stripes.png)
 
 ## Рамка
 Как багет у картины, средний цвет высчитывается отдельно у каждой из сторон фотографии.
-[Пример](https://hcodes.github.io/fast-average-color/examples/border.html)  
+[Пример](https://fast-average-color.github.io/examples/border.html)  
 ![Border](./images/border.png)
 
 ## Тень
-Вычисленный средний цвет используется в задании цвета падающей тени. [Пример](https://hcodes.github.io/fast-average-color/examples/box-shadow.html)  
+Вычисленный средний цвет используется в задании цвета падающей тени. [Пример](https://fast-average-color.github.io/examples/box-shadow.html)  
 ![Box shadow](./images/box_shadow.png)
 
-В CSS у элемента можно задать несколько теней. Для каждой из сторон фотографии вычислим средний цвет и установим отдельную тень. [Пример](https://hcodes.github.io/fast-average-color/examples/box-shadow-4-sides.html)  
+В CSS у элемента можно задать несколько теней. Для каждой из сторон фотографии вычислим средний цвет и установим отдельную тень. [Пример](https://fast-average-color.github.io/examples/box-shadow-4-sides.html)  
 ![Box shadow, 4 sides](./images/box_shadow_4.png)
 
 ## Видео
-Предыдущий пример применим в динамике для видео. [Пример](https://hcodes.github.io/fast-average-color/examples/ambilight.html#4Sides)  
+Предыдущий пример применим в динамике для видео. [Пример](https://fast-average-color.github.io/examples/ambilight.html#4Sides)  
 ![Video, box shadow, 4 sides](./images/ambilight_simple.png)
 
-Разделим стороны экрана на большее количество частей (30), в которых вычислим средний цвет для отбрасываемой тени, совсем как у [Philips Ambilight](https://ru.wikipedia.org/wiki/Ambilight). [Пример](https://hcodes.github.io/fast-average-color/examples/ambilight.html#ManyPoints)  
+Разделим стороны экрана на большее количество частей (30), в которых вычислим средний цвет для отбрасываемой тени, совсем как у [Philips Ambilight](https://ru.wikipedia.org/wiki/Ambilight). [Пример](https://fast-average-color.github.io/examples/ambilight.html#ManyPoints)  
 ![Video, Ambilight](./images/ambilight_extended.png)
 
 ## Текстовая фотография
-Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Пример](https://hcodes.github.io/fast-average-color/examples/text-photo.html)  
+Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Пример](https://fast-average-color.github.io/examples/text-photo.html)  
 ![Text photo](./images/firefox.png)
 
 ## Использование
-Средний цвет в примерах вычисляется с помощью небольшого пакета «[fast-average-color](https://github.com/hcodes/fast-average-color)»; его можно получать из картинок, видео и canvas’а. При подсчёте цвета учитывается прозрачность. По умолчанию используется квадратичный алгоритм, т.к. при простом усреднении цвет становится [более тёмным](https://hcodes.github.io/fast-average-color/examples/compare/).
+Средний цвет в примерах вычисляется с помощью небольшого пакета «[fast-average-color](https://github.com/hcodes/fast-average-color)»; его можно получать из картинок, видео и canvas’а. При подсчёте цвета учитывается прозрачность. По умолчанию используется квадратичный алгоритм, т.к. при простом усреднении цвет становится [более тёмным](https://fast-average-color.github.io/examples/compare/).
 
 `npm i -D fast-average-color`
 
@@ -130,4 +130,4 @@
 Ссылки:
 - [Репозиторий на Github](https://github.com/hcodes/fast-average-color)
 - [Пакет в npm](https://www.npmjs.com/package/fast-average-color)
-- [Примеры](https://hcodes.github.io/fast-average-color/examples/background.html)
+- [Примеры](https://fast-average-color.github.io/examples/background.html)
