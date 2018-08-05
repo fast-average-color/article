@@ -7,37 +7,43 @@
 
 ## Фон
 Рассчитываем средний цвет фотографии и устанавливаем цвет подложки. [Пример](https://fast-average-color.github.io/examples/background.html)  
-![Background](./images/bg.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/background.html">![Background](./images/bg.png)</a>
 
 ## Градиент
 Средний цвет высчитывается у верхней или нижней части картинки и используется в подложке для текста. Между картинкой и подложкой установлен плавный градиент. Стиль Яндекс.Дзена. [Пример](https://fast-average-color.github.io/examples/gradient.html)  
-![Gradient](./images/gradient.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/gradient.html">![Gradient](./images/gradient.png)</a>
 
 Градиент в стиле Minecraft — средний цвет высчитывается частями (горизональными полосками). [Пример](https://fast-average-color.github.io/examples/gradient_stripes.html)  
-![Minecraft gradient](./images/gradient_stripes.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/gradient_stripes.html">![Minecraft gradient](./images/gradient_stripes.png)</a>
 
 ## Рамка
 Как багет у картины, средний цвет высчитывается отдельно у каждой из сторон фотографии.
 [Пример](https://fast-average-color.github.io/examples/border.html)  
-![Border](./images/border.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/border.html">
+![Border](./images/border.png)</a>
 
 ## Тень
 Вычисленный средний цвет используется в задании цвета падающей тени. [Пример](https://fast-average-color.github.io/examples/box-shadow.html)  
-![Box shadow](./images/box_shadow.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/box-shadow.html">
+![Box shadow](./images/box_shadow.png)</a>
 
 В CSS у элемента можно задать несколько теней. Для каждой из сторон фотографии вычислим средний цвет и установим отдельную тень. [Пример](https://fast-average-color.github.io/examples/box-shadow-4-sides.html)  
-![Box shadow, 4 sides](./images/box_shadow_4.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/box-shadow-4-sides.html">
+![Box shadow, 4 sides](./images/box_shadow_4.png)</a>
 
 ## Видео
 Предыдущий пример применим в динамике для видео. [Пример](https://fast-average-color.github.io/examples/ambilight.html#4Sides)  
-![Video, box shadow, 4 sides](./images/ambilight_simple.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/ambilight.html#4Sides">
+![Video, box shadow, 4 sides](./images/ambilight_simple.png)</a>
 
 Разделим стороны экрана на большее количество частей (30), в которых вычислим средний цвет для отбрасываемой тени, совсем как у [Philips Ambilight](https://ru.wikipedia.org/wiki/Ambilight). [Пример](https://fast-average-color.github.io/examples/ambilight.html#ManyPoints)  
-![Video, Ambilight](./images/ambilight_extended.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/ambilight.html#ManyPoints">
+![Video, Ambilight](./images/ambilight_extended.png)</a>
 
 ## Текстовая фотография
 Фотографию заполняем текстом, под каждым символом вычисляем средний цвет и применяем его к символу. [Пример](https://fast-average-color.github.io/examples/text-photo.html)  
-![Text photo](./images/firefox.png)
+<a target="_blank" href="https://fast-average-color.github.io/examples/text-photo.html">
+![Text photo](./images/firefox.png)</a>
 
 ## Использование
 Средний цвет в примерах вычисляется с помощью небольшого пакета «[fast-average-color](https://github.com/hcodes/fast-average-color)». При подсчёте цвета учитывается прозрачность. По умолчанию используется квадратичный алгоритм, т.к. при простом усреднении цвет становится [более тёмным](https://fast-average-color.github.io/examples/compare/).
@@ -128,6 +134,6 @@
 Для картинок и видео с разных доменов стоит не забывать про [CORS](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS).
 
 Ссылки:
-- [Репозиторий на Github](https://github.com/hcodes/fast-average-color)
+- [Репозиторий на Github](https://github.com/fast-average-color/fast-average-color)
 - [Пакет в npm](https://www.npmjs.com/package/fast-average-color)
 - [Примеры](https://fast-average-color.github.io/examples/background.html)
